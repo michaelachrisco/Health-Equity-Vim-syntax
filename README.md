@@ -7,3 +7,8 @@ $ vim ~/.vimrc
 ```
 Then Add:
 `Plugin 'michaelachrisco/Health-Equity-Vim-syntax'` below your other packages.
+
+You can also add:
+`au BufRead,BufNewFile *.he setfiletype he` to autoload the syntax.
+
+
